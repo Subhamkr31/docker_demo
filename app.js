@@ -21,7 +21,7 @@ app.use('/service2', createProxyMiddleware({ target: SERVICE_2, changeOrigin: tr
 
 // Default Route
 app.get('/', (req, res) => {
-    res.send('API Gateway is running ....');
+    res.send('API Gateway is running .....');
 });
 
 // Start the Server

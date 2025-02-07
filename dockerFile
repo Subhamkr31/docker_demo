@@ -1,6 +1,6 @@
 
 # USE NODE VERSION 18 default os debian
-FROM NODE:18
+FROM node:18
  
 WORKDIR /app 
 
